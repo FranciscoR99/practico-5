@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        function mostrarAlerta() {
+          alert("Se envió correctamente");
+        }
+      </script>
+</head>
+<body>
+    <ul>
+        <a href=index.html><li>Index</li></a>
+        <a href="images.html"><li>Images</li></a>
+        <a href="form.html"><li>Form</li></a>
+    </ul>
+    <h1 class="formulario">Register Form</h1>
+    <div>
+        <form action="form.html">
+            First Name: <input type="text" name="name" id="" class="Name">
+            Last Name: <input type="text" name="" id="" class="Last">
+            User Name(A random user-name with at least one number): <input type="text" name="" id="" class="usr">
+            E-mail: <input type="email" name="" id="" class="mail">
+            Password: <input type="password" name="" id="" class="pass">
+            <input type="submit" value="Send" class="bt" onclick="mostrarAlerta()">
+        </form>
+    </div>
+</body>
+</html>
