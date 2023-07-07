@@ -80,7 +80,13 @@ div{
     padding: 10px;
   }
 
+
+
   .grid-item img {
     width: 100%;
     height: auto;
   }
+.grid-item:hover{
+    width: 125%;
+    padding: 0px;
+}
